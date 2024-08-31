@@ -1,0 +1,22 @@
+
+.cardTextNike{
+  
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  border: 10px solid black;
+  
+
+}
+.nike{
+    border:10px solid green;
+    font-size: 80px;
+    font-weight: bold;
+}
+.collection{
+    border:10px solid green;
+    font-size: 50px;
+    font-weight: bold;
+}
