@@ -1,22 +1,57 @@
 
 .cardTextNike{
-  
-  height: 50%;
+ 
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  border: 10px solid black;
+  justify-content: center;
+  align-items: center;   
+ /* border: 10px solid rgb(203, 30, 59);*/
   
+  }
+
+.nike{
+    
+  font-size: 95px;
+  font-weight: bold;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 30%;
+  width: 100%;
+  height: 45%;
+  /* border:15px solid rgb(58, 106, 184);*/
+
+  
+}
+.textCollection{
+  font-size: 70px;
+  font-weight: bold;
+  font-weight: bold;
+  /*letter-spacing: 2px;*/
+ 
+
+
 
 }
-.nike{
-    border:10px solid green;
-    font-size: 80px;
-    font-weight: bold;
+#nike{
+
+  color: var(--purpura);
+  
 }
-.collection{
-    border:10px solid green;
-    font-size: 50px;
-    font-weight: bold;
+
+#parrafo{
+  
+  font-size: 15px;
+  text-align: justify;
+  color: black;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-top: 30px;
+  line-height: 1.2; /* Ajusta el valor según tus necesidades */
+    width: 40%;
+  height: 30%;
+  /*border: 5px purple solid;*/
+
 }
