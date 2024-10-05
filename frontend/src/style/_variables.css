@@ -1,0 +1,13 @@
+/* variables.css */
+:root {
+    --yellow: #FFFF00;
+    --blue: #0000FF;
+    --red: #FF0000;
+    --negro: #0000;
+    --purpura: #9d2a9d;
+    --blanco: #ffff;
+    --gradient-purple-pink: linear-gradient(to right, purple, pink);
+    --purple-pink-gradient: linear-gradient(45deg, #800080, #ff69b4);
+    
+     }
+

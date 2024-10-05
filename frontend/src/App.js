@@ -14,27 +14,30 @@ import Favorites from './components/Favorites';
 import Login from './components/Login';
 
 
+
 function App() {
   return (
     <>
       <div className="App">
         <BrowserRouter>
           <div className="card_nav">
-            <div><h1>Shoes</h1> </div>
+            <div className='textShoes'>
+            Shoe<span className='blueUnderline'>s</span>
+            </div>
             <nav className='nav'>
               <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/Products">Productos</Link></li>         
-                <li><Link to="/About">About</Link></li>
-                <li><Link to="/Revisar">Revisar</Link></li>
-                <li><Link to="/Servicios">Servicios</Link></li>
+                <li ><Link to="/" style={{ textDecoration: 'none', color: 'black' }}>Home</Link></li>
+                <li ><Link to="/Products" style={{ textDecoration: 'none', color: 'black' }}>Productos</Link></li>         
+                <li><Link to="/About" style={{ textDecoration: 'none', color: 'black' }}>About</Link></li>
+                <li><Link to="/Revisar" style={{ textDecoration: 'none', color: 'black' }}>Revisar</Link></li>
+                <li><Link to="/Servicios" style={{ textDecoration: 'none', color: 'black' }}>Servicios</Link></li>
               </ul>
             </nav>
             <nav className='nav'>
-              <ul>
-                <li><Link to="/favorites"> <FontAwesomeIcon icon={faHeart} /></Link></li>
-                <li><Link to="/Cart"> <FontAwesomeIcon icon={faShoppingCart} /></Link></li>
-                <li><Link to="/login"> <FontAwesomeIcon icon={faUser} /></Link></li>
+              <ul className='nav-icons'>
+                <li><Link to="/favorites" style={{ textDecoration: 'none', color: 'black', fontSize: '18px'}}> <FontAwesomeIcon icon={faHeart} /></Link></li>
+                <li><Link to="/Cart" style={{ textDecoration: 'none', color: 'black', fontSize: '18px' }}> <FontAwesomeIcon icon={faShoppingCart} /></Link></li>
+                <li><Link to="/login" style={{ textDecoration: 'none', color: 'black', fontSize: '18px'}}> <FontAwesomeIcon icon={faUser} /></Link></li>
               </ul>
             </nav>
           </div>

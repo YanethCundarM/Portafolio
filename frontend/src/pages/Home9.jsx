@@ -9,27 +9,33 @@ import ImgShoes from '../components/ImgShoes';
 //import shoes from '../../src/style/shoes.png';
 
 
+
+
+
 function Home() {
   return (
     <>
     <div className='cardHome'>
       <div className= 'home'>
+      <TextNike/>
+      <ImgShoes/>
+        
+       </div>
+      
       <div className='text'>
-        <TextNike />
+        
 
        <div className='cardButtonEnHome'>
-       <ButtonHome/>
+       
        </div>
       </div>
       
       <div className='img'>
-       <div className='shoes'>
-        <ImgShoes/>
-        
-       </div>
+      <div className='shoes'>
+       
       </div>
       <div className='Icons'>
-        <Icons />
+        
       </div>
     
       </div>

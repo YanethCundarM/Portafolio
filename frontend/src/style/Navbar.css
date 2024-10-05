@@ -1,37 +1,56 @@
 /* Navbar.css */
+:root {
+  --purpura: #bf1fdf; /* Define el color púrpura */
+  --negro: #0000; 
+  --blanco:#ffff;
+
+}
+
+
 
 .card_nav {
-  height: 40px;
-  padding: 10px;
+  
+  width: 96%;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Ajusta los valores para ver si hay algún cambio */
+  margin: 10px auto; /* Añade margen para separar de otros elementos 
+  padding-left:30px;
+  padding-right:30px ;
+  /*border: 8px solid red;*/
   
-  
-  
-  box-shadow: 0 0 8px rgba(0,0,0,0.6);
-  background: rgb(216, 200, 200);
-  
-  top: 0;
-  left: 0;
-  right: 0;
- 
-  /*  border: 10px solid red;*/
 
-  }
-.nav_menu{
-  display: flex;
+}
+  
+.textShoes{
+  color: var(--purpura);
+ 
+  font-size: 45px;
+  /*border: 2px solid blue; */
+
+}
+.blueUnderline {
+  color: blue;
+  text-decoration: underline;
 }
 
 ::-webkit-scrollbar{
     width: 15px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track{
-    border-radius: 5px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+       border-radius: 5px;
+    background: linear-gradient(to top, #c72092 , #6c14d0);
 }
+
+
 
 ::-webkit-scrollbar-thumb{
     border-radius: 5px;
@@ -40,29 +59,22 @@
 
  
 
-  p{
-    border:12px solid red;
-  }
+  
   .nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    font-size: 16px;
+    
+    
   }
   
   .nav li {
-    margin: 0 1rem;
-    text-decoration: none;
+    margin: 0 1.2rem;
   }
-  
+
   nav ul {
-    color: black;
-    text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
-  
-  .nav a:hover {
-    text-decoration: underline;
-  }
-  
