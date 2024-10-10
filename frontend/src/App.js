@@ -4,14 +4,14 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faUser, faHeart } from '@fortawesome/free-solid-svg-icons';
 import './style/Navbar.css';
-import Home from './pages/Home'
-import Products from './pages/Products';
-import About from './pages/About';
-import Revisar from './pages/Revisar';
-import Servicios from './pages/Servicios';
-import Cart from './components/Cart';
-import Favorites from './components/Favorites';
-import Login from './components/Login';
+import Home from './pages/Home.jsx'
+import Products from './pages/Products.jsx';
+import About from './pages/About.jsx';
+import Revisar from './pages/Revisar.jsx';
+import Servicios from './pages/Servicios.jsx';
+import Cart from './components/Cart.jsx';
+import Favorites from './components/Favorites.jsx';
+import Login from './components/Login.jsx';
 
 
 
