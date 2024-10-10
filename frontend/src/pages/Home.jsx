@@ -4,9 +4,6 @@ import "../style/Home.css"
 import TextNike from '../components/Text_Nike';
 import Icons from '../components/Icons';
 import ButtonHome from '../components/ButtonHome';
-import ImgShoes from '../components/ImgShoes';
-
-//import shoes from '../../src/style/shoes.png';
 
 
 function Home() {
@@ -14,24 +11,15 @@ function Home() {
     <>
     <div className='cardHome'>
       <div className= 'home'>
-      <div className='text'>
-        <TextNike />
-
-       <div className='cardButtonEnHome'>
-       <ButtonHome/>
-       </div>
-      </div>
-      
-      <div className='img'>
-       <div className='shoes'>
-        <ImgShoes/>
-        
+        <div className='text'>
+          <TextNike />
+        <div className='cardButtonEnHome'>
+          <ButtonHome/>
        </div>
       </div>
       <div className='Icons'>
         <Icons />
       </div>
-    
       </div>
     </div>    
     </>
