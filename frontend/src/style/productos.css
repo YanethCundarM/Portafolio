@@ -1,0 +1,23 @@
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+  }
+  
+  .tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 380px;
+    height: 300px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el texto en la tarjeta */
+  }
+  
+  .producto-imagen {
+    width: 100%; /* Ajusta el ancho a tu preferencia */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Esquinas redondeadas */
+  }
+  
